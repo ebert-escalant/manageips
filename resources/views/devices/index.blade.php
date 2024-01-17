@@ -75,7 +75,7 @@
                                     <td align="right">
                                         <button class="btn bg-teal btn-sm px-1 py-0" data-toggle="tooltip" data-placement="right"
                                             title="Editar equipo"
-											onclick="openModal('modal-md', 'Editar equipo', null, '{{ route('devices.edit', $item->id) }}', 'GET')">
+											onclick="openModal('modal-lg', 'Editar equipo', null, '{{ route('devices.edit', $item->id) }}', 'GET')">
                                             <i class="fas fa-edit"></i>
                                         </button>
                                         <button class="btn bg-maroon btn-sm px-1 py-0" data-toggle="tooltip" data-placement="right"

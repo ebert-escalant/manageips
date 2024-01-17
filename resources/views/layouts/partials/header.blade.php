@@ -17,7 +17,6 @@
                     <img src="{{ asset('avatar.png') }}" class="img-circle elevation-2" alt="User Image">
                     <p>
                         {{ Auth::user()->name }}
-                        <small>{{ 'xde' }}</small>
                     </p>
                 </li>
                 <li class="user-footer">
@@ -39,11 +38,6 @@
         <li class="nav-item">
             <a class="nav-link" data-widget="fullscreen" href="#" role="button">
                 <i class="fas fa-expand-arrows-alt"></i>
-            </a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" data-widget="control-sidebar" data-slide="true" href="#" role="button">
-                <i class="fas fa-th-large"></i>
             </a>
         </li>
     </ul>
